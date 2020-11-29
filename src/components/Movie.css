@@ -1,0 +1,53 @@
+.Movie {
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 1rem 0rem 0rem 0rem;
+  width: 35%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Movie-name {
+  color: white;
+}
+
+.selected {
+  background-color: red;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+}
+
+img {
+  width: 30%;
+  height: 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  
+}
+
+.Movie-title {
+  width: 70%;
+  height: 100%;
+  font-size: 1rem;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  outline: none;
+}
+
+button {
+  width: 30%;
+  height: auto;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
