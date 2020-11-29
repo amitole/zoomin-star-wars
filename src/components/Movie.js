@@ -10,7 +10,7 @@ const Movie = (props) => {
     if (localStorage.getItem(`${episode_id}`) === "fav") {
       setSelected(true);
     }
-  }, [selected]);
+  }, [selected, episode_id]);
 
   const addToFav = (id) => {
     localStorage.setItem(`${id}`, "fav");
